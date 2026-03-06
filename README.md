@@ -29,7 +29,7 @@ Tutti i risultati qui sotto sono stati generati localmente su RTX 3090, con `dev
 ### Food Truck — 4 layer
 | Input | Layer 1 — Sfondo | Layer 2 — Truck | Layer 3 — Scritta neon |
 |-------|-----------------|-----------------|----------------------|
-| ![](examples/food_truck.png) | ![](output/food_truck_layers.png) | | |
+| ![](examples/food_truck.png) | ![](output/layer_1.png) | ![](output/layer_3.png) | ![](output/layer_4.png) |
 
 > Immagine generata con FLUX su ComfyUI. Il modello ha separato sfondo urbano, truck e scritta neon in layer distinti senza nessuna maschera manuale.
 
