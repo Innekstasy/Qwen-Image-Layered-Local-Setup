@@ -18,6 +18,11 @@
 
 Per chi lavora in **VFX, motion graphics o post-produzione**: separazione automatica di elementi, maschere alpha pronte all'uso, layer indipendenti su cui fare editing.
 
+Secondo me c'è ancora molto da migliorare e capire come funziona ma è un incredibile punto di partenza.
+Su immagini dove i "bordi" sono ben definiti non ci sono grossi dubbi sul funzionamento. Il problema nasce quando ci sono immagine meno "vettoriali" e più "realistiche".
+
+Tutte le immagini non presenti negli esempi del repo di Qwen, sono state generate tramite Comfyui.
+
 Output supportati: **PNG · ZIP · PPTX · PSD**
 
 ---
@@ -59,7 +64,7 @@ Tutti i risultati qui sotto sono stati generati localmente su RTX 3090, con `dev
 ### Uomo al Fuoco — 4 layer
 ![](output/campfire_layers.png)
 
-> Il più interessante: foresta sfocata, figura umana, **fuoco isolato come layer separato**. Il fuoco come elemento standalone è direttamente utilizzabile in compositing.
+> Il più interessante: foresta sfocata, figura umana, fuoco isolato come layer separato.
 
 ---
 
