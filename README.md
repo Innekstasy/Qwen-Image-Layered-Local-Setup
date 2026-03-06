@@ -29,42 +29,42 @@ Tutti i risultati qui sotto sono stati generati localmente su RTX 3090, con `dev
 ### Food Truck — 4 layer
 | Input | Layer 1 — Sfondo | Layer 2 — Truck | Layer 3 — Scritta neon |
 |-------|-----------------|-----------------|----------------------|
-| ![](examples/input/food_truck.png) | ![](examples/output/food_truck_layers.png) | | |
+| ![](examples/food_truck.png) | ![](output/food_truck_layers.png) | | |
 
 > Immagine generata con FLUX su ComfyUI. Il modello ha separato sfondo urbano, truck e scritta neon in layer distinti senza nessuna maschera manuale.
 
 ---
 
 ### Paesaggio Cinese — 4 layer
-![](examples/output/chinese_landscape_layers.png)
+![](output/chinese_landscape_layers.png)
 
 > Separazione notevole: cielo/acqua come sfondo, uccelli in volo come layer indipendente, figura umana, barca con fiori in primo piano. Quattro elementi semanticamente distinti isolati automaticamente.
 
 ---
 
 ### Anime Girl — 4 layer
-![](examples/output/anime_girl_layers.png)
+![](output/anime_girl_layers.png)
 
 > Cielo degradato, petali di ciliegio, personaggio principale, fiori in primo piano — layer puliti con alpha precisa anche sui capelli.
 
 ---
 
 ### Fashion / E-commerce — 3 layer
-![](examples/output/fashion_layers.png)
+![](output/fashion_layers.png)
 
 > Caso d'uso immediato: sfondo neutro, ambiente (camera), persona ritagliata. Pronto per sostituire il background o riutilizzare il soggetto su altre scene.
 
 ---
 
 ### Uomo al Fuoco — 4 layer
-![](examples/output/campfire_layers.png)
+![](output/campfire_layers.png)
 
 > Il più interessante: foresta sfocata, figura umana, **fuoco isolato come layer separato**. Il fuoco come elemento standalone è direttamente utilizzabile in compositing.
 
 ---
 
 ### Business Illustration — 4 layer
-![](examples/output/business_illustration_layers.png)
+![](output/business_illustration_layers.png)
 
 > Funziona anche su illustrazioni flat/vettoriali: sfondo rosso, personaggi, oggetti iconici (cartella, colomba, telecamera) separati con precisione.
 
